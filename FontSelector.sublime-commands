@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "FontSelector: Select Font",
+        "command": "font_selector",
+        "args": {"action": "select"}
+    },
+    {
+        "caption": "FontSelector: Random Font",
+        "command": "font_selector",
+        "args": {"action": "random"}
+    },
+    {
+        "caption": "FontSelector: Next Font",
+        "command": "font_selector",
+        "args": {"action": "next"}
+    },
+    {
+        "caption": "FontSelector: Previous Font",
+        "command": "font_selector",
+        "args": {"action": "prev"}
+    }
+]
