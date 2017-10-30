@@ -1,22 +1,10 @@
 {
-    "monospace_fonts": [
+    "fonts": [
         "Fira Code",
         "Inconsolata",
         "Roboto Mono",
-        "Operator Mono",
-        "Hack",
         "Monaco",
-        "CamingoCode",
         "Source Code Pro",
         "Consolas",
-        "Input",
-        "Cousin",
-        "PT Mono",
-        "Overpass Mono",
-        "Anonymous Pro",
-        "Share Tech Mono",
-        "NovaMono",
-        "Envy Code",
-        "Comic Sans MS",
     ],
 }

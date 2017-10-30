@@ -48,7 +48,7 @@ class FontSelectorCommand(sublime_plugin.WindowCommand):
         return int(random() * len(self.font_stack))
 
     def load_fonts(self):
-        return self.get_font_settings().get("monospace_fonts", [])
+        return self.get_font_settings().get("fonts", [])
 
     def set_font(self, font_name):
         self.get_pref_settings().set('font_face', font_name)
