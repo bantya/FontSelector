@@ -9,7 +9,12 @@ class FontSelectorCommand(sublime_plugin.WindowCommand):
         self.font_stack = self.load_fonts()
 
         if action == 'select':
-            self.window.show_quick_panel(self.font_stack, self.on_done, on_highlight=self.on_highlighted)
+            index = self.font_stack.index(self.get_font())
+
+            if index > len(self.font_stack):
+                index = 0
+
+            self.window.show_quick_panel(self.font_stack, self.on_done, selected_index=index, on_highlight=self.on_highlighted)
         elif action == 'random':
             font = self.random_font()
             self.on_done(font)
